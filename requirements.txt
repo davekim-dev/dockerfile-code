@@ -1,4 +1,6 @@
+cat > requirements.txt << 'EOF'
 flask==3.0.0
 gunicorn==21.2.0
+EOF
 
 cat requirements.txt 로 확인
